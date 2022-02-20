@@ -1,0 +1,56 @@
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.title{
+    font-size: 50px;
+    font-family: "fantasy";
+    letter-spacing: 4px;
+}
+.image{
+    background-image: url(https://www.akc.org/wp-content/uploads/2017/11/Pembroke-Welsh-Corgi-standing-outdoors-in-the-fall.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.dog-input{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    width: 50%;
+    height: 15px;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+#random{
+    background-color:rgba(129, 58, 187, 0.25);
+    margin-right: 15px;
+}
+#random:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+#specific{
+    background-color:rgba(65, 102, 224, 0.25);
+}
+#specific:hover{
+    cursor: pointer;
+    background-color: aquamarine;   
+}
+.error-msg{
+    visibility: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+}
